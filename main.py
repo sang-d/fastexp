@@ -18,6 +18,6 @@ async def get_list(list_id: str):
     return {"message": list_id}
 
 
-@app.post("/list/}")
+@app.post("/list/")
 async def post_list():
     return {"message"}
