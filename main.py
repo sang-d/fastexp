@@ -30,7 +30,66 @@ my_check_lists = {
         "stuff": ["gift", "other people items", "give away"],
         "off": ["echo", "hot water", "kitchen"],
         "on": ["autofeeder", "monitoring"],
-    }
+    },
+    "coffee-workspace": {
+        "devices": ["laptop", "phone", "ear-phone", "watch"],
+        "clothes": ["casual", "formal"],
+        "stationeries": ["pen", "note"],
+        "utilities": [
+            "tissue",
+            "wet-tissue",
+            "eye-drop",
+            "mosquito repellent",
+            "cleaning gel",
+        ],
+        "others": ["book"],
+    },
+    "decision-making": {
+        "logical-reasoning": {
+            "situation": "logical, reasoning, analysis, scientific",
+            "strategies": [
+                "getting more info/data",
+                "fat-tail effect awareness",
+                "flexible options",
+            ],
+        },
+        "instinct": {
+            "situation": "quick, no data, type two decision",
+            "strategies": [
+                "push back",
+                "delay",
+                "run",
+                "redirect",
+                "engaging",
+                "clarifying",
+            ],
+        },
+        "consulting": {
+            "situation": "complicated, complex, technical, unfarmiliar domain",
+            "strategies": [
+                "seek expert opinion",
+                "search online",
+                "forum",
+                "friend, family",
+            ],
+        },
+        "future-look-back": {
+            "situation": "long term effect, type one, hard to revert, moral, ethical, visionary, discipline",
+            "strategies": [
+                "vocal declaration",
+                "public validation",
+                "lock committment",
+            ],
+        },
+        "put-other-in-your-shoes": {
+            "situation": "need objective view, realistic self-assessment, self-evaluation, moral, ethical",
+            "strategies": [
+                "decision would you advise your children/love/friend to make",
+                "decision your enemy would make",
+                "decision wise people would make",
+            ],
+        },
+    },
 }
 
 
