@@ -21,7 +21,7 @@ class Item:
 
     def __repr__(self) -> str:
         children = " ".join([str(item) for item in self.children])
-        return str(self.id) + " " + self.desc + children
+        return str(self.id) + " " + self.desc + " " + children
 
 
 a = Item(1, "testa")
