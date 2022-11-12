@@ -6,6 +6,7 @@ from pydantic import BaseModel
 class ItemBase(BaseModel):
     title: str
     description: Union[str, None] = None
+    parent_id: int = -1
 
 
 class ItemCreate(ItemBase):
