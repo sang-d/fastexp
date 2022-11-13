@@ -1,11 +1,4 @@
-from fastapi import FastAPI
-
-from app.db import models
-from app.db.database import SessionLocal, engine
-
-models.Base.metadata.create_all(bind=engine)
-
-app = FastAPI()
+from app.db.database import SessionLocal
 
 
 # DependencyO
