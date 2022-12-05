@@ -14,5 +14,5 @@ jobs:
   integration-test:
     runs-on: ubuntu-latest
     steps:
-    - run: 'sh fail.sh'
+    - run: 'pwd'
     - run: 'echo "Integration test done!!"'
