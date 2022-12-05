@@ -1,0 +1,17 @@
+
+name: Unit tests workflow
+
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - 'static/**'
+  pull_request:
+    paths-ignore:
+      - 'static/**'
+
+jobs:
+  unit-test:
+    runs-on: ubuntu-latest
+    steps:
+    - run: 'echo "Unit test done!!"'

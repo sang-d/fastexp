@@ -1,0 +1,17 @@
+
+name: Unit tests workflow
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'static/**'
+  pull_request:
+    paths:
+      - 'static/**'
+
+jobs:
+  unit-test:
+    runs-on: ubuntu-latest
+    steps:
+    - run: 'echo "Skip test - should not show this!!"'
