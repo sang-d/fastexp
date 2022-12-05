@@ -4,10 +4,14 @@ name: Unit tests workflow
 on:
   workflow_dispatch:
   push:
-    paths:
+    branches:
+      - main
+    paths-ignore:
       - 'static/**'
   pull_request:
-    paths:
+    branches:
+      - main
+    paths-ignore:
       - 'static/**'
 
 jobs:
