@@ -14,4 +14,4 @@ jobs:
   unit-test:
     runs-on: ubuntu-latest
     steps:
-    - run: 'echo "Skip test - should not show this!!"'
+    - run: 'echo "No code change! Skip test!!"'
